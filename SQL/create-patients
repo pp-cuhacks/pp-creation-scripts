@@ -1,7 +1,6 @@
 CREATE TABLE patients (
 	patient_id serial PRIMARY KEY,
     user_id INTEGER,
-	name VARCHAR (255),
     group_priority INTEGER,
     postal_code VARCHAR ( 7 ),
 	created_on TIMESTAMP NOT NULL,
